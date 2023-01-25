@@ -1,0 +1,154 @@
+:root{
+    --main-color: #c93429;
+   --body-bg: #ffffff;
+   --second-bg: #f5f5f5;
+   --text-color: #000000;
+   --main-hover: #9b2d25;
+
+   --section-space: 100px;
+   --nav-size: 70px;
+   --logo-size: 90px;
+   --banner-height: 400px;
+}
+html{
+    min-height: 100%;
+}
+body{
+    border: 1px solid transparent;
+    min-height: 100%;
+}
+.Thank-you{
+    margin: 100px;
+  align-content: center;
+  text-align: center;
+}
+.model2{
+    width: 40%; 
+    position: relative; 
+    left: 900px; 
+    bottom: 500px;
+}
+.Skincare{
+    height: 20%;
+    position: relative;
+    bottom: 700px;
+}
+
+@media (min-width: 240px) and (max-width: 319px) {
+    .Thank-you-text{
+        font-size: 30%;
+    }
+    .Makeup-boxes{
+        padding: 0px;
+    }
+    .Skincare{
+        padding: 0px;
+        position: relative;
+        bottom: 0px;
+        margin-top: 60%;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 374px) {
+    .Thank-you-text{
+        font-size: 50%;
+    }
+    .Makeup-boxes{
+        padding: 30px;
+        height: 30%;
+    }
+    .Skincare{
+        padding: 30px;
+        height: 30%;
+        position: relative;
+        bottom: 0px;
+        margin-top: 70%;
+
+    }
+    .product-image{
+        height: 20px;
+    }
+
+}
+@media (min-width: 375px) and (max-width: 479px){
+    .Thank-you-text{
+        font-size: 60%;
+    }
+    .Makeup-boxes{
+        padding: 50px;
+        height: 50%;
+    }
+    .Skincare{
+        padding: 50px;
+        height: 50%;
+        position: relative;
+        bottom: 0px;
+        margin: 80%;
+    }
+    
+}
+@media (min-width: 480px) and (max-width: 639px){
+    .Thank-you-text{
+        font-size: 70%;
+    }
+    .Makeup-boxes{
+        padding: 70px;
+        height: 70%;
+    }
+    .Skincare{
+        padding: 70px;
+        height: 70%;
+        position: relative;
+        top: 90%;
+        margin-top: 90%;
+    }
+    .product-image{
+        height: 200px;
+    }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+    .Thank-you-text{
+        font-size: 80%;
+    }
+    .Makeup-boxes{
+        padding: 80px;
+        height: 80%;
+    }
+    .Skincare{
+        padding: 80px;
+        height: 80%;
+        position: relative;
+        top: 90%;
+    }
+    .product-image{
+        height: 200px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .Thank-you-text{
+        font-size: 90%;
+    }
+    .Makeup-boxes{
+        padding: 90px;
+        height: 90%;
+    }
+    .Skincare{
+        padding: 90px;
+        height: 90%;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .Thank-you-text{
+        font-size: 100%;
+    }
+    .Makeup-boxes{
+        padding: 100px;
+    }
+    .Skincare{
+        padding: 100px;
+        height: 100%;
+    }
+
+}
